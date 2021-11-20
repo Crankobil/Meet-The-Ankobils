@@ -3,7 +3,7 @@ import {Nav,Navbar, Container, NavDropdown} from 'react-bootstrap'
 
 const MyNavbar = () => {
     return (
-      <Navbar bg="dark" variant="dark" expand="lg" sticky="top" />>
+      <Navbar bg="dark" variant="dark" expand="lg" sticky="top" >
       <Container>
       <Navbar.Brand href="#home">The Ankobils</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,8 +22,6 @@ const MyNavbar = () => {
       </Navbar.Collapse>
       </Container>
     </Navbar>
-      
-      
     )
 }
 
